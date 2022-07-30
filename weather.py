@@ -1,6 +1,9 @@
 import requests
+with open('API Key.txt','r') as f:
+    z = f.read().split(':')
+    print(z[1])
 
-API_KEY ="<Own API key>" #Enter your own API key
+API_KEY =z[1] #Enter your own API key
 # BASE_URL = "http://api.openweathermap.org/geo/1.0/direct"
 BASE_URL_W ="https://api.openweathermap.org/data/2.5/weather"
 lat = 0
