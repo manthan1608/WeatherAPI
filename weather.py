@@ -1,6 +1,6 @@
 import requests
 
-API_KEY ="657fbfbeca6e11b2fd8d64373958c0f1"
+API_KEY ="657fbfbeca6e11b2fd8d64373958c0f1" #Enter your own API key
 # BASE_URL = "http://api.openweathermap.org/geo/1.0/direct"
 BASE_URL_W ="https://api.openweathermap.org/data/2.5/weather"
 lat = 0
